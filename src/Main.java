@@ -21,7 +21,8 @@ public class Main {
             return str;
         }
         StringBuilder bld = new StringBuilder();
-        bld.repeat("#", str.length()-4);
+        for(int i =0; i< str.length()-4; i++) bld.append("#");
+
         bld.append(str.substring(str.length()-4));
         return bld.toString();
     }
