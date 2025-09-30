@@ -8,6 +8,25 @@ public class Main {
     }
 
 
+    public static boolean isIsogram(String str){
+        /*Find isometric strings - strings without repeating letters*/
+        str = str.toLowerCase();
+        for(char t: str.toCharArray()){
+            if(str.indexOf(t) != str.lastIndexOf(t)) return false;
+        }
+        return true;
+    }
+
+    public static void isIsogramTest(){
+        assert(isIsogram("Dermatoglyphics"));
+        assert(!isIsogram("moose"));
+
+        assert(isIsogram("isogram"));
+        assert(isIsogram(""));
+
+    }
+
+
 
 
 
