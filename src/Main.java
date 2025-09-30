@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import static Tasks.Isograms.isIsogramTest;
 import static Tasks.NumberedStrings.numberStringsTest;
 import static Tasks.TextMaskify.maskifyTest;
