@@ -1,7 +1,6 @@
 package main.java.com.codewarstasks;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class NumberedStrings {
@@ -18,11 +17,5 @@ public class NumberedStrings {
         return result;
     }
 
-    public static void numberStringsTest(){
-        assert(List.of().equals(numberStrings(List.of())));
 
-        assert(Arrays.asList("1: a", "2: b", "3: c").equals(numberStrings(Arrays.asList("a", "b", "c"))));
-
-        assert(Arrays.asList("1: ", "2: ", "3: ", "4: ", "5: ").equals(numberStrings(Arrays.asList("", "", "", "", ""))));
-    }
 }

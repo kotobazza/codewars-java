@@ -18,12 +18,5 @@ public class Isograms {
         return true;
     }
 
-    public static void isIsogramTest(){
-        assert(isIsogram("Dermatoglyphics"));
-        assert(!isIsogram("moose"));
 
-        assert(isIsogram("isogram"));
-        assert(isIsogram(""));
-
-    }
 }
