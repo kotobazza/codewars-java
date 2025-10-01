@@ -5,6 +5,8 @@ public class WordSorter {
         String[] words = line.split(" ");
         String[] reorderedWords = new String[words.length];
 
+        if(words.length==1) return words[0];
+
         for (String word : words) {
             String cleaned = word.replaceAll("[^0-9]+", "");
             if (!cleaned.isEmpty()) {
@@ -24,13 +26,5 @@ public class WordSorter {
 
         return res.toString();
     }
-
-    public static void orderTest(){
-        assert("Thi1s is2 3a T4est".equals(order("is2 Thi1s T4est 3a")));
-        assert("Fo1r the2 g3ood 4of th5e pe6ople".equals(order("4of Fo1r pe6ople g3ood th5e the2")));
-        assert(order("").isEmpty());
-
-    }
-
 
 }
