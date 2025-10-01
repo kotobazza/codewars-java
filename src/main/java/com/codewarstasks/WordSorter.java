@@ -1,4 +1,4 @@
-package Tasks;
+package main.java.com.codewarstasks;
 
 public class WordSorter {
     public static String order(String line){

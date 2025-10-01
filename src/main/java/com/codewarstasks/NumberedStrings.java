@@ -1,14 +1,8 @@
-package Tasks;
+package main.java.com.codewarstasks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-/*
-* Got list of strings -> make them numbered at the start with "<>: "
-*
-* */
-
 
 public class NumberedStrings {
 

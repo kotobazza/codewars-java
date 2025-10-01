@@ -1,18 +1,9 @@
-package Tasks;
-
-/*
-* Create maskified text
-*     + all characters replaced with '#'
-*     + last 4 symbols still visible
-*     + in <4 - everything is visible
-* */
-
-
+package main.java.com.codewarstasks;
 
 public class TextMaskify {
     public static String maskify(String str){
-        /*Returns maskified value of string of any length.
-        Format: ####1234*/
+            /*Returns maskified value of string of any length.
+            Format: ####1234*/
         if(str.length() <= 4) return str;
 
         return "#".repeat(str.length() - 4) +

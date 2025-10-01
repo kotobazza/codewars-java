@@ -1,4 +1,4 @@
-package Tasks;
+package main.java.com.codewarstasks;
 
 
 public class CamelCaseBreaker {
@@ -16,10 +16,5 @@ public class CamelCaseBreaker {
     }
 
 
-    public static void  breakCamelCaseTest(){
-        assert("Insomnia".equals(breakCamelCase("Insomnia")));
-        assert("camel Case".equals(breakCamelCase("camelCase")));
-        assert("camel Casing Test".equals(breakCamelCase("camelCasingTest")));
-        assert("camelcasingtest".equals(breakCamelCase("camelcasingtest")));
-    }
+
 }

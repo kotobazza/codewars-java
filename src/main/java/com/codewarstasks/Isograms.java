@@ -1,4 +1,4 @@
-package Tasks;
+package main.java.com.codewarstasks;
 
 /*
 * Is this string an isogram?
