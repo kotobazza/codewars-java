@@ -5,8 +5,10 @@ import org.junit.jupiter.api.Test;
 import static main.java.com.codewarstasks.TextMaskify.maskify;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TextMaskifyTest {
 
+/// Maskify text with "#" except last 4 symbols
+///
+public class TextMaskifyTest {
 
     @Test
     public void testLongString(){

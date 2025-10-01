@@ -4,10 +4,6 @@ package main.java.com.codewarstasks;
 
 
 public class WordSorter {
-    /**
-     * Reorder words in accordance with a number inserted into this word
-     * Guaranteed the right numbers in each word and possible right order
-     * */
     public static String order(String line){
         String[] words = line.split(" ");
         String[] reorderedWords = new String[words.length];

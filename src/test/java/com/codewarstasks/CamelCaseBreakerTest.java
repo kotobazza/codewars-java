@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import static main.java.com.codewarstasks.CamelCaseBreaker.breakCamelCase;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/// Break string in camel case on each Upper Letter
+///
 public class CamelCaseBreakerTest {
 
     @Test

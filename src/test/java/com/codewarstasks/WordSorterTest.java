@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 import static main.java.com.codewarstasks.WordSorter.order;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/// Reorder words in accordance with a number inserted into this word
+///
+/// Guaranteed the right numbers in each word and possible right order
+///
 public class WordSorterTest {
 
     @Test

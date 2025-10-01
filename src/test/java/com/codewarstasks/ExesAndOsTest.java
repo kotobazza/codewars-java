@@ -6,6 +6,9 @@ import static main.java.com.codewarstasks.ExesAndOs.exesAndOs;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
+/// Check is string containing the equal number of 'x's and 'o's
+///
 public class ExesAndOsTest {
 
     @Test

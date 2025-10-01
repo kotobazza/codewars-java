@@ -8,6 +8,9 @@ import java.util.List;
 import static main.java.com.codewarstasks.NumberedStrings.numberStrings;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
+
+/// Given the array of strings, concatenate each string with its number like `1: string`
+///
 public class NumberedStringsTest {
 
     @Test

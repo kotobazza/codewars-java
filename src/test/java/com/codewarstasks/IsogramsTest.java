@@ -6,6 +6,11 @@ import static main.java.com.codewarstasks.Isograms.isIsogram;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
+/// Is this string an isogram?
+/// + Isogram - the string contains symbols meeting only one time in whole string
+///   + Strings without repeating symbols
+///
 public class IsogramsTest {
 
     @Test

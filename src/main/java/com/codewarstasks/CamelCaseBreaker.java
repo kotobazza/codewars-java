@@ -3,10 +3,6 @@ package main.java.com.codewarstasks;
 
 
 public class CamelCaseBreaker {
-
-    /**
-     * break string in camel case on each Upper Letter
-     * */
     public static String breakCamelCase(String str){
         StringBuilder bld = new StringBuilder();
         for(int i = 0; i< str.length(); i++){
