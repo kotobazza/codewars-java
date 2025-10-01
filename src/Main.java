@@ -1,5 +1,3 @@
-import Tasks.WordSorter;
-
 import static Tasks.CamelCaseBreaker.breakCamelCaseTest;
 import static Tasks.ExesAndOs.exesAndOsTest;
 import static Tasks.Isograms.isIsogramTest;
@@ -17,6 +15,7 @@ public class Main {
         numberStringsTest();
         breakCamelCaseTest();
         exesAndOsTest();
+        orderTest();
 
     }
 
