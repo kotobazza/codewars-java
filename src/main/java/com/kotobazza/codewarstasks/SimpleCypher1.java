@@ -1,6 +1,6 @@
 package main.java.com.kotobazza.codewarstasks;
 
-public class SimpleCypher {
+public class SimpleCypher1 {
 
     public static String encrypt(String input){
         StringBuilder bld = new StringBuilder();

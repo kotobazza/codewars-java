@@ -2,7 +2,7 @@ package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.kotobazza.codewarstasks.SimpleCypher.encrypt;
+import static main.java.com.kotobazza.codewarstasks.SimpleCypher1.encrypt;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 ///
 /// Decryption should restore the old string
 /// + Decryption wasn't implemented due to no task on CodeWars for Java
-public class SimpleCypherTest {
+public class SimpleCypher1Test {
 
     @Test
     public void testEncryption(){
