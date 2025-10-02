@@ -28,8 +28,9 @@ public class SimpleCypher1 {
     }
 
     /// wasn't implemented due to no task on CodeWars for Java
+    @Deprecated
     public static String decrypt(String input){
-        return "";
+        return input;
     }
 
 }
