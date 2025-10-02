@@ -6,7 +6,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static main.java.com.kotobazza.codewarstasks.SimpleCypher2.encrypt;
 import static main.java.com.kotobazza.codewarstasks.SimpleCypher2.decrypt;
 
-
+/// Cypher v2
+///
+/// Use odd and even symbols to return string {odd}{even} for some times
 public class SimpleCypher2Test {
 
     @Test
