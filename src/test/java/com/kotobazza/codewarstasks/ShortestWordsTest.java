@@ -1,8 +1,8 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.ShortestWords.findShortestWordLength;
+import static main.java.com.kotobazza.codewarstasks.ShortestWords.findShortestWordLength;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /// Find the shortest word in string and return it's size

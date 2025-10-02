@@ -1,9 +1,9 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.FindUnique.findUniqByTreeMap;
-import static main.java.com.codewarstasks.FindUnique.findUniqueByTwoLists;
+import static main.java.com.kotobazza.codewarstasks.FindUnique.findUniqByTreeMap;
+import static main.java.com.kotobazza.codewarstasks.FindUnique.findUniqueByTwoLists;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

@@ -1,8 +1,8 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.WordSorter.order;
+import static main.java.com.kotobazza.codewarstasks.WordSorter.order;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /// Reorder words in accordance with a number inserted into this word

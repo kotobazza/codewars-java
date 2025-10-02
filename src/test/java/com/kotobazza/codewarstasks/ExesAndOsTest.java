@@ -1,8 +1,8 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.ExesAndOs.exesAndOs;
+import static main.java.com.kotobazza.codewarstasks.ExesAndOs.exesAndOs;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

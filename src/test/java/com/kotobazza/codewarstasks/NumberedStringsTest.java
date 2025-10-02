@@ -1,11 +1,11 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static main.java.com.codewarstasks.NumberedStrings.numberStrings;
+import static main.java.com.kotobazza.codewarstasks.NumberedStrings.numberStrings;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
 
 

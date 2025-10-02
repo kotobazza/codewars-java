@@ -1,12 +1,12 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 
 import org.junit.jupiter.api.Test;
 
 
 
-import static main.java.com.codewarstasks.ByteStreamReverse.reverseByteStream;
-import static main.java.com.codewarstasks.ByteStreamReverse.reverseByteStreamUsingMapreduce;
+import static main.java.com.kotobazza.codewarstasks.ByteStreamReverse.reverseByteStream;
+import static main.java.com.kotobazza.codewarstasks.ByteStreamReverse.reverseByteStreamUsingMapreduce;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 /// Given the data stream: `[<8-bytes-1>,<8-bytes-2>,<8-bytes-3>]`

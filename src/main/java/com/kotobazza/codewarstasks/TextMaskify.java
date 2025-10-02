@@ -1,4 +1,4 @@
-package main.java.com.codewarstasks;
+package main.java.com.kotobazza.codewarstasks;
 
 
 

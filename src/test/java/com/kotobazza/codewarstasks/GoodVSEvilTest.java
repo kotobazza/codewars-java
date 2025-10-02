@@ -1,8 +1,8 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.GoodVSEvil.battle;
+import static main.java.com.kotobazza.codewarstasks.GoodVSEvil.battle;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

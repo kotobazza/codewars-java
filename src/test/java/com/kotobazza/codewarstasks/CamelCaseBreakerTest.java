@@ -1,8 +1,8 @@
-package test.java.com.codewarstasks;
+package test.java.com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.codewarstasks.CamelCaseBreaker.breakCamelCase;
+import static main.java.com.kotobazza.codewarstasks.CamelCaseBreaker.breakCamelCase;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /// Break string in camel case on each Upper Letter
