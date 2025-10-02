@@ -6,6 +6,10 @@ import static main.java.com.codewarstasks.FindUnique.findUniqByTreeMap;
 import static main.java.com.codewarstasks.FindUnique.findUniqueByTwoLists;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+/// Given an array containing many elements of two numbers find a unique one
+/// [1.0, 1.0, 1.0, 4.5]
+///
 public class FindUniqueTest {
     private final double precision = 0.0000000000001;
 

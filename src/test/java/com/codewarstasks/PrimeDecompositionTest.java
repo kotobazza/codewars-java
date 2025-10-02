@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 import static main.java.com.codewarstasks.PrimeDecomposition.factors;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+/// Represent a number with its primes factorization
 public class PrimeDecompositionTest {
     @Test
     public void test1(){
