@@ -1,8 +1,7 @@
-package test.java.com.kotobazza.codewarstasks;
+package com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.kotobazza.codewarstasks.ShortestWords.findShortestWordLength;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /// Find the shortest word in string and return it's size
@@ -10,12 +9,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ShortestWordsTest {
     @Test
     public void testManyWords1(){
-        assertEquals(3, findShortestWordLength("bitcoin take over the world maybe who knows perhaps"));
+        assertEquals(3, ShortestWords.findShortestWordLength("bitcoin take over the world maybe who knows perhaps"));
     }
 
     @Test
     public void testManyWords2(){
-        assertEquals(3, findShortestWordLength("turns out random test cases are easier than writing out basic ones"));
+        assertEquals(3, ShortestWords.findShortestWordLength("turns out random test cases are easier than writing out basic ones"));
 
     }
 }
