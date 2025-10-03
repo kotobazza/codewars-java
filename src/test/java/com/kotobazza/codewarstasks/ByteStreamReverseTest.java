@@ -1,4 +1,4 @@
-package test.java.com.kotobazza.codewarstasks;
+package com.kotobazza.codewarstasks;
 
 
 import org.junit.jupiter.api.Test;

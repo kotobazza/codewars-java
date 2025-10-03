@@ -1,4 +1,4 @@
-package main.java.com.kotobazza.codewarstasks;
+package com.kotobazza.codewarstasks;
 
 
 import java.util.ArrayList;
