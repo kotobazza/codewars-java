@@ -5,4 +5,4 @@
 
 
 ### Задачи в репозиторие
-+ [ ] Переместить сборку из Intellij в Maven/Gradle
++ [x] Переместить сборку из Intellij в Maven/Gradle
