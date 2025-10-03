@@ -1,11 +1,8 @@
 package com.kotobazza.codewarstasks;
 
-import main.java.com.kotobazza.codewarstasks.Diamond;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-
 
 /// Return a diamond figure into console
 public class DiamondTest {

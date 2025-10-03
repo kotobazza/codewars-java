@@ -2,7 +2,6 @@ package com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.kotobazza.codewarstasks.TextMaskify.maskify;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -12,16 +11,14 @@ public class TextMaskifyTest {
 
     @Test
     public void testLongString(){
-        assertEquals("######7890", maskify("1234567890"));
+        assertEquals("######7890", TextMaskify.maskify("1234567890"));
     }
 
     @Test
-    public void testShortString(){
-        assertEquals("123", maskify("123"));
-    }
+    public void testShortString(){assertEquals("123", TextMaskify.maskify("123"));}
 
     @Test
     public void testEmptyString(){
-        assertEquals("", maskify(""));
+        assertEquals("", TextMaskify.maskify(""));
     }
 }

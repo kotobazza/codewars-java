@@ -2,7 +2,6 @@ package com.kotobazza.codewarstasks;
 
 import org.junit.jupiter.api.Test;
 
-import static main.java.com.kotobazza.codewarstasks.GoodVSEvil.battle;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
@@ -14,16 +13,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class GoodVSEvilTest {
     @Test
     public void test1(){
-        assertEquals("Battle Result: Evil eradicates all trace of Good", battle("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
+        assertEquals("Battle Result: Evil eradicates all trace of Good", GoodVSEvil.battle("1 1 1 1 1 1", "1 1 1 1 1 1 1"));
     }
 
     @Test
     public void test2(){
-        assertEquals("Battle Result: Good triumphs over Evil", battle("0 0 0 0 0 10", "0 1 1 1 1 0 0"));
+        assertEquals("Battle Result: Good triumphs over Evil", GoodVSEvil.battle("0 0 0 0 0 10", "0 1 1 1 1 0 0"));
     }
 
     @Test
     public void test3(){
-        assertEquals("Battle Result: No victor on this battle field", battle("1 0 0 0 0 0", "1 0 0 0 0 0 0"));
+        assertEquals("Battle Result: No victor on this battle field", GoodVSEvil.battle("1 0 0 0 0 0", "1 0 0 0 0 0 0"));
     }
 }
